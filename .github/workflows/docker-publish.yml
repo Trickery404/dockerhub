@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm run test
+        run: npm run test:dev
  
   build-and-push:
     name: Build and Push Docker Image
