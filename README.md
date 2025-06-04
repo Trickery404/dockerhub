@@ -70,6 +70,8 @@ This command will spin up:
 * `npm run setup:dev`: will prepare and setup your local environment with a single command
 * `npm run setdown:dev`: will stop all running development containers
 * `npm run cleanup:dev`: will remove and reinstall all node_modules
+* `"test:dev"`: "dotenv -e .env.local -- jest --coverage",
+
 
 ## Environment Variables
 
